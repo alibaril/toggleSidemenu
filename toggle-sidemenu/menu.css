@@ -3,11 +3,11 @@ navbar - left side verticle, white block, hides and shows left side
 */
 
 #box{
-	width:142px;
-	top: 10px;
-	left: -125px;
-	z-index: 100;
-	position: fixed;
+    width:142px;
+    top: 10px;
+    left: -125px;
+    z-index: 100;
+    position: fixed;
 }
 
 #tab{
@@ -30,41 +30,41 @@ navbar - left side verticle, white block, hides and shows left side
 }
 
 #sidemenu a:link, a:visited{
-	font-family: "Arial", Arial, sans-serif;
-	text-decoration: none;
-	display: block;
-	background-color: white;
-	width: 120px;
-	text-align: right;
-	color: #282828;
-	text-transform: lowercase;
-	padding: 2px; 
+    font-family: "Arial", Arial, sans-serif;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    width: 120px;
+    text-align: right;
+    color: #282828;
+    text-transform: lowercase;
+    padding: 2px; 
 }
 
 #sidemenu a:hover, a:active{
-	background-color: #808080;
+    background-color: #808080;
 }
 
 #sidesmall a:link, a:visited{
-	font-family: "Arial", Arial, sans-serif;
-	text-decoration: none;
-	display: block;
-	background-color: white;
-	width: 100px;
-	text-align: right;
-	color: #282828;
-	text-transform: lowercase;
-	padding: 2px; 
-	font-size: 80%;
+    font-family: "Arial", Arial, sans-serif;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    width: 100px;
+    text-align: right;
+    color: #282828;
+    text-transform: lowercase;
+    padding: 2px; 
+    font-size: 80%;
 }
 
 #sidesmall a:hover, a:active{
-	background-color: #808080;
+    background-color: #808080;
 }
 
 .show, .hide{
     /* we specify the transition length for hiding and showing */
-            transition: margin-left .4s ease-in;
+    transition: margin-left .4s ease-in;
     -webkit-transition: margin-left .4s ease-in;
 }
 
