@@ -1,0 +1,101 @@
+/*
+navbar - left side verticle, white block, hides and shows left side
+*/
+
+#box{
+	width:142px;
+	top: 10px;
+	left: -125px;
+	z-index: 100;
+	position: fixed;
+}
+
+#tab{
+    float: right;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 99;
+}
+
+#tab li span{
+    display: block;
+    padding: 0 5px;
+    position: relative;
+}
+
+#submenu {
+   
+}
+
+#sidemenu a:link, a:visited{
+	font-family: "Arial", Arial, sans-serif;
+	text-decoration: none;
+	display: block;
+	background-color: white;
+	width: 120px;
+	text-align: right;
+	color: #282828;
+	text-transform: lowercase;
+	padding: 2px; 
+}
+
+#sidemenu a:hover, a:active{
+	background-color: #808080;
+}
+
+#sidesmall a:link, a:visited{
+	font-family: "Arial", Arial, sans-serif;
+	text-decoration: none;
+	display: block;
+	background-color: white;
+	width: 100px;
+	text-align: right;
+	color: #282828;
+	text-transform: lowercase;
+	padding: 2px; 
+	font-size: 80%;
+}
+
+#sidesmall a:hover, a:active{
+	background-color: #808080;
+}
+
+.show, .hide{
+    /* we specify the transition length for hiding and showing */
+            transition: margin-left .4s ease-in;
+    -webkit-transition: margin-left .4s ease-in;
+}
+
+.hide{
+    margin-left:0px;
+}
+
+.show{
+    margin-left:140px;
+}
+
+.open{
+    display: block;
+}
+
+.close{
+    display: none;
+}
+
+.small{
+    font-size: 80%;
+    color: #888888;
+}
+
+#arrow{
+    cursor: pointer;
+}
+
+.navbar{
+    display: inline-block;
+    float: left;
+    border-right: 1px solid #282828; 
+}
+
