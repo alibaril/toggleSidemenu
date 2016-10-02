@@ -3,33 +3,37 @@
 <head>
 <link rel= "stylesheet" type="text/css" href="menu.css">
 </head>
+	
 <title>Side Menu</title>
+	
 <body>
-<div id="box" class="show">
+  
+  <!-- Sidebar Menu Content -->
+  <div id="box" class="show">
     <ul id="tab">
-        <li>
-            <img id="arrow" onclick="toggle('box');" src="arrowleft.png">
-        </li>
+      <li>
+        <img id="arrow" onclick="toggle('box');" src="arrowleft.png">
+      </li>
     </ul>
-<div class="navbar" id="sidemenu">
-	<a id="sidemenu" href="">Side Menu</a>
-	<a id="sidemenu" href="javascript:show('submenu1');">Sub Menu 1</a>
-<div id="submenu1" class="close">
+    <div class="navbar" id="sidemenu">
+      <a id="sidemenu" href="">Side Menu</a>
+      <a id="sidemenu" href="javascript:show('submenu1');">Sub Menu 1</a>
+      <div id="submenu1" class="close">
 	<a id="sidemenu" class="small" href="">Item 1</a>
 	<a id="sidemenu" class="small" href="">Item 2</a>
 	<a id="sidemenu" class="small" href="">Item 3</a>
-</div>
-	<a id="sidemenu" href="javascript:show('submenu2');">Sub Menu 2</a>
-<div id="submenu2" class="close">
+      </div>
+      <a id="sidemenu" href="javascript:show('submenu2');">Sub Menu 2</a>
+      <div id="submenu2" class="close">
 	<a id="sidemenu" class="small" href="">Item 1</a>
 	<a id="sidemenu" class="small" href="">Item 2</a>
 	<a id="sidemenu" class="small" href="">Item 3</a>
 	<a id="sidemenu" class="small" href="">Item 4</a>
-</div>
-	<a id="sidemenu" href="">Menu 3</a>
-	<a id="sidemenu" href="">Menu 4</a>
-</div>
-</div>
+      </div>
+      <a id="sidemenu" href="">Menu 3</a>
+      <a id="sidemenu" href="">Menu 4</a>
+    </div>
+  </div>
 
 <script>
 function toggle(id) {
